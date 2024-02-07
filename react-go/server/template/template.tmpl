@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang='en'>
+{{ $react := . }}
+    <head>
+        <meta charset='utf-8'>
+        <title>React Go Template </title>
+        {{ if $react }}
+          {{ $react.RenderTags }}
+        {{ end }}
+        
+    </head>
+    <body>
+      <div id="root"></div>
+      
+    </body>
+  </html>
