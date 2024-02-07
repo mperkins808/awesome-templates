@@ -25,16 +25,6 @@ func WaitForSignal(pidFile string, pidDeleteChan chan os.Signal) {
 	}()
 }
 
-// flag.StringVar(&config.Environment, "env", "development", "development|production")
-// flag.StringVar(&config.JSProjectPath, "assets", "../app", "location of javascript files.")
-// flag.BoolVar(&config.JSInExternalDir, "external", true, "location of javascript files.")
-// flag.StringVar(&config.DevServerDomain, "domain", "localhost", "Domain of the dev server.")
-// flag.BoolVar(&config.HTTPS, "https", false, "Expect dev server to use HTTPS")
-// flag.StringVar(&config.AssetsPath, "dist", "", "dist directory relative to the JS project directory.")
-// flag.StringVar(&config.EntryPoint, "entryp", "", "relative path of the entry point of the js app.")
-// flag.StringVar(&config.Platform, "platform", "", "vue|react|svelte")
-// flag.StringVar(&pidFile, "pid", "", "location of optional pid file.")
-
 func GenConfig(env string) vueglue.ViteConfig {
 	var config vueglue.ViteConfig
 	if env == "production" {
