@@ -8,7 +8,7 @@ Fully set up templates. Just pick a folder and read the `README.md` within that 
 | ----------------------- | -------------------------------------------------------------------------- |
 | [react-go](./react-go/) | A React frontend, bundled with Vite. A Go backend. An example API endpoint |
 
-## Contributiong
+## Contributing
 
 Got an awesome template? Please ensure your template has the following
 
